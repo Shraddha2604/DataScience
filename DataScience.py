@@ -15,12 +15,12 @@ def content(df):
 
         if rows['Image'] != '':
             try:
-                expander.image('D:\Interview\Preparation\images' + '\\' + rows['Image'] + '.jpg')
+                expander.image('Preparation\images' + '\\' + rows['Image'] + '.jpg')
             except:
-                expander.image('D:\Interview\Preparation\images' + '\\' + rows['Image'] + '.png')
+                expander.image('Preparation\images' + '\\' + rows['Image'] + '.png')
 
 st.set_page_config(layout="wide")
-path = r'D:\Interview\Preparation'
+path = r'Preparation'
 print('--------------------------------------------------------------------------------------------------')
 st.header('Interview Questions')
 Python, ML, DL, NLP = st.tabs(['Python', 'Machine Learning', 'Deep Learning', 'Natural Language Processing'])
