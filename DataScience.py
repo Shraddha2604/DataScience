@@ -26,7 +26,7 @@ st.header('Interview Questions')
 Python, ML, DL, NLP = st.tabs(['Python', 'Machine Learning', 'Deep Learning', 'Natural Language Processing'])
 
 with ML:
-    df = pd.read_excel(path + '\MachineLearning.xlsx')
+    df = pd.read_excel('MachineLearning.xlsx')
     df = df.fillna('')
     content(df)
 
